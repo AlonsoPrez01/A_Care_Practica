@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExplicacionCuestionarioDiario">
+
+    <TextView
+        android:id="@+id/txtEstimado"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/estimado"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtExplicacion"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/expliacion"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEstimado" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttons_form"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/cuetionarioDiario"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:onClick="ContestarCuestionario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVulnerable" />
+
+    <TextView
+        android:id="@+id/txtVulnerable"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/vulnerable"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtExplicacion" />
+</android.support.constraint.ConstraintLayout>

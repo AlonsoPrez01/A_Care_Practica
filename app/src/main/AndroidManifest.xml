@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tarea.a_care_practica">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.A_Care_Practica">
+        <activity
+            android:name=".ResultadoA_Care"
+            android:exported="false"
+            android:label="@string/resultado"/>
+        <activity
+            android:name=".Pregunta5"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".Pregunta4"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".Pregunta3"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".Pregunta2"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".Pregunta1"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".AceptarEncuesta"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".ExplicacionCuestionarioDiario"
+            android:exported="false"
+            android:label="@string/cuetionarioDiario" />
+        <activity
+            android:name=".RegistroInvitado"
+            android:exported="false"
+            android:label="@string/Registrarse" />
+        <activity
+            android:name=".Login_Invitado"
+            android:exported="false"
+            android:label="@string/inivtado" />
+        <activity
+            android:name=".InicioSesionAnahuac"
+            android:exported="false"
+            android:label="@string/cuenta_anahuac_label" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

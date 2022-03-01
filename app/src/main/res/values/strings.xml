@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">A Care</string>
+    <string name="inivtado">Invitado</string>
+    <string name="cuenta_anahuac_label">Cuenta Anáhuac</string>
+    <string name="no_tienes_cuenta_anahuac_mx">¿No tienes cuenta @anahuac.mx?</string>
+    <string name="sin_cuenta">¿Nuevo?</string>
+    <string name="acceder_cuenta_anahuac">Correo Anáhuac</string>
+    <string name="entrar_como_invitado">Entrar como invitado</string>
+    <string name="correo_anahuac">Correo</string>
+    <string name="contra_anahuac">Contraseña</string>
+    <string name="AcpetarButton">Aceptar</string>
+    <string name="CancelarButton">Cancelar</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="continuar">Continuar</string>
+    <string name="nombre_invitado">Nombre</string>
+    <string name="apellido_paterno_invitado">Apellido paterno</string>
+    <string name="apellido_materno_invitado">Apellido materno</string>
+    <string name="mail_inivtado">Correo electrónico</string>
+    <string name="contraseña_inivtado">Contraseña</string>
+    <string name="confirmar_contraseña">Confirmar contraseña</string>
+    <string name="campus">Campus</string>
+    <string name="proveedor">Soy proveedor</string>
+    <string name="estimado">Estimado(a) Usuario:</string>
+    <string name="expliacion"> Como parte de los procesos para un sano retorno a las actividades prácticas presenciales, te pedimos que respondas este cuestionario cada día que debas acudir a la universidad. Después de contestar, se generará un carnet que deberás presentar en la entrada del laboratorio o taller.</string>
+    <string name="cuetionarioDiario">Cuestionario Diario</string>
+    <string name="vulnerable">Vulnerabilidad: No soy vulnerable</string>
+    <string name="btnAcepto">Acepto</string>
+    <string name="btnNoAcepto">No acepto</string>
+    <string name="cuestionarioDiario">Cuestionario Diario</string>
+    <string name="anterior">Anterior</string>
+    <string name="enviarEncuestaInfo">
+        Al enviar la presente encuesta, manifiesto y reconozco bajo protesta
+        de decir la verdad que la informción es proporcionada de forma voluntaira,
+        además de que ésta es verídica, por lo que en caso de existir falsedad en la información,
+        tengo pleno conocimiento de que pdoría afectar mi salud y la de la comunidad universitaria.
+    </string>
+    <string name="saludPosteriorEncuesta">
+        En caso de que mi estado de salud se vea modificado posterior al envío de la presente encuesta,
+        me comprometo a informar dicha situación al correo servicio.medicouac@anahuac.mx.
+        Cancún
+    </string>
+    <string name="preguntaUno">
+        En los  últimos 7 días he estado con alguna persona que tenga COVID-19 confirmado
+        por una prueba PCR, prueba rápida o por diagnóstico de un doctor.
+    </string>
+    <string name="siguiente">Siguiente</string>
+    <string name="preguntoDos">En las últimas 24 hrs. he presentado los siguientes síntomas:</string>
+    <string name="noVulnerable">No soy vulnerable</string>
+    <string name="userPrueba">Usuario Prueba</string>
+    <string name="userRol">Alumno</string>
+    <string name="fecha">21/febrero/2022</string>
+    <string name="resultado">Resultado</string>
+    <string name="inicio">Inicio</string>
+</resources>

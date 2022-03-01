@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="245dp"
+        android:layout_height="25dp"
+        android:text="@string/no_tienes_cuenta_anahuac_mx"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagen_a_care" />
+
+    <Button
+        android:id="@+id/btn_CorreoAnahuac"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="72dp"
+        android:drawableStart="@drawable/a_anahuac_b"
+        android:onClick="IniciarSesionA"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:text="@string/acceder_cuenta_anahuac"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_Entry_Invitado"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:onClick="IniciarSesionInvitado"
+        android:text="@string/entrar_como_invitado"
+        android:textColor="@color/anahuac_orange"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.363" />
+
+</android.support.constraint.ConstraintLayout>

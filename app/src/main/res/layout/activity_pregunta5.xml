@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pregunta5">
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="59dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="155dp"
+        android:buttonTint="#E88E72"
+        android:text="No"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3"
+        app:layout_constraintVertical_bias="0.454"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="59dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="230dp"
+        android:buttonTint="#E88E72"
+        android:text="Si"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/grey_buttons_form"
+        android:onClick="Anterior5"
+        android:text="Anterior"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/green_button_form"
+        android:text="Finalizar"
+        android:textColor="@color/white"
+        android:onClick="Finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="317dp"
+        android:layout_height="310dp"
+        android:text="Me he recuperado recientemente de COVID-19, aunque en las últimas 72 horas he presentado alguno de estos síntomas: Temperatura mayor a 37.5, dolor muscular o de articulaciones, dolor de cabeza, tos, dolor de garganta, escurrimiento nasal, ojos rojos, comezón, ardor, dolor o secreción en ojos, cansancio excesivo, dejado de percibir el sabor de la comida, dejado de percibir el olor de las cosas, diarrea, dolor de tórax, dificultad para respirar, labios, uñas o dedos con coloración morada."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="40dp"
+        android:layout_height="44dp"
+        android:text="5."
+        android:textColor="#E88E72"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="126dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagen_a_care" />
+
+
+</android.support.constraint.ConstraintLayout>

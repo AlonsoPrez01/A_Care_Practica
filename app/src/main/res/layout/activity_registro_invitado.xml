@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/Registrarse"
+    tools:context=".RegistroInvitado">
+
+    <EditText
+        android:id="@+id/txtNombreInivtado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="@string/nombre_invitado"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtCampusInvitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/campus"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConfirmarContraInvitado"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtApellidoMinvitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/apellido_materno_invitado"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellidoPinivitado"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtEmailInvitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/mail_inivtado"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellidoMinvitado"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtContrasennaInvitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/contraseña_inivtado"
+        android:inputType="textPassword"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailInvitado"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtConfirmarContraInvitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/confirmar_contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="@color/anahuac_orange"
+        android:background="@drawable/text_edits_forms"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContrasennaInvitado"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txtApellidoPinivitado"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/apellido_paterno_invitado"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/anahuac_orange"
+        android:paddingStart="10dp"
+        android:background="@drawable/text_edits_forms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreInivtado"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNombreInivtado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/imagen_a_care" />
+
+    <CheckBox
+        android:id="@+id/checkBoxProveedor"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:buttonTint="@color/anahuac_orange"
+        android:text="@string/proveedor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCampusInvitado" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons_form"
+        android:text="@string/continuar"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxProveedor" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/grey_buttons_form"
+        android:onClick="CancelarRegistro"
+        android:text="@string/CancelarButton"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxProveedor" />
+
+</android.support.constraint.ConstraintLayout>

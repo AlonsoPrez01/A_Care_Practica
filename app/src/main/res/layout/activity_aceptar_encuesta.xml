@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AceptarEncuesta">
+
+    <TextView
+        android:id="@+id/txtEnviarEncuestaInfo"
+        android:layout_width="350dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/enviarEncuestaInfo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSaludPosterior"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/saludPosteriorEncuesta"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarEncuestaInfo" />
+
+    <Button
+        android:id="@+id/btnAcepto"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/buttons_form"
+        android:text="@string/btnAcepto"
+        android:textColor="@color/white"
+        android:onClick="Acepto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaludPosterior" />
+
+    <Button
+        android:id="@+id/btnNoAcepto"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/grey_buttons_form"
+        android:onClick="NoAcepto"
+        android:text="@string/btnNoAcepto"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaludPosterior" />
+</android.support.constraint.ConstraintLayout>
